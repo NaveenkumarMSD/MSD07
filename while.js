@@ -1,26 +1,18 @@
-var age=26;
-let name= "Naveen MSD";
-
-if (age<25){
-  console.log(" eligible for jobs");
-}else if(age>25){
-    console.log("not eligible for jobs");
-}else{
-console.log("last chance for jobs");
-}
-
-let i = 0;
-for(i=0;i<name.length; i++);
-{
-  console.log(name[i]);
-}
-// let g = 0;
-// while (g < age && age <= 30) {
-//     console.log(name);
-//     g++;
-// }
-let j = 0;
-do {
-    console.log(name);
-    j++;
-} while (j === 1 || (j % 2 === 0 && age % 2 === 0))
+ function Person(first, last, age, eyecolor) {
+    this.firstName = first;
+    this.lastName = last;
+    this.age = age;
+    this.eyeColor = eyecolor;
+    person.rollNo=07;
+  }
+  
+  Person.prototype.nationality ="English";
+  
+var person1=new Person("msd","mandati",20,"black")
+var person2=new Person("mahi","valluru",21,"white");
+console.log(person1)
+console.log(person2)
+console.log(person1.nationality);
+console.log(person2.lastName);
+console.log(person1.eyeColor);
+console.log(person.rollNo); //set//
